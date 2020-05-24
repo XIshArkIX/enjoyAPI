@@ -1,11 +1,11 @@
 {
-    "name": "enjoyapi",
+    "name": "enjoyAPI",
     "version": "1.0.0",
     "description": "Враппер для EnjoyMickey API",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sqdshcom/enjoyapi.git"
+        "url": "git+https://github.com/sqdshcom/enjoyAPI.git"
     },
     "author": {
         "name": "Sadly Shape",
@@ -13,7 +13,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sqdshcom/enjoyapi/issues"
+        "url": "https://github.com/sqdshcom/enjoyAPI/issues"
     },
-    "homepage": "https://github.com/sqdshcom/enjoyapi#readme"
+    "homepage": "https://github.com/sqdshcom/enjoyAPI#readme"
 }
