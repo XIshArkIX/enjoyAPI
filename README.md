@@ -12,7 +12,7 @@ const token = "тут-токен";
 const enjoyAPI = require("enjoyAPI");
 const client = new enjoyAPI(token);
 
-client.check("123456789012345678") // Проверить пользователя на наличие в базе спамеров
+client.check("123456789012345678") // Проверить пользователя на наличие в ЧС проекта EnjoyMickey
     .then(res =>
         console.log(res);
         /* При отсутствии: {
