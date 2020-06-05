@@ -1,6 +1,6 @@
 {
     "name": "enjoyAPI",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Враппер для EnjoyMickey API",
     "main": "index.js",
     "repository": {
