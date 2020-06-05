@@ -6,8 +6,8 @@ const send = (url, token) => {
             encodeURI(path + url),
             (res) => {
                 let data = [];
-                res.on('data', data = [...data, res]);
-                res.on('end', resolve(Buffer.concat(data).toString()));
+                res.on('data', (chunk) => data = [...data, chunk]);
+                res.on('end', () => resolve(Buffer.concat(data).toString()));
             }
         );
 
